@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bacana.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
         
-        <div class="botao-1">
-            <h1>Gamificação na Educação</h1>
+        <div class="botaoprojetos-1">
+            <h1><a href="index.html"><h1>Gamificação na Educação</h1></a></h1>
         </div>
 
-        <div class="botao-2">
-            <h1>Projetos</h1>
+        <div class="botaoprojetos-2">
+            <h1><a href="projetos.html">Projetos</a></h1>
         </div>
 
         <div class="botao-3">
-            <h1>Artigo</h1>
+            <h1><a href="projetos.html">Artigos</a></h1>
         </div>
 
         <div class="botao-4">
-            <h1>Sobre</h1>
+            <h1><a href="projetos.html">Sobre</a></h1>
         </div>
 
     </div>
 
     <div class="background">
         <div class="conteudo">
-        
+
+            <div class="faixa-fm">
+                <div class="botaojogar">
+                    <a href="index.html"><h1>Jogar</h1></a>>
+                </div>
+            </div>
+
         </div>
     </div>
 
