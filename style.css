@@ -13,16 +13,22 @@
 .botao-1 {
     width: 35%;
     height: 100%;
-    padding-top: 20px;
+    padding-top: 22px;
     float: left;
     text-align: center;
+    transition: 350ms all;
 }
 
 .botao-1 h1{
     color: white;
+    font-size: 30px;
 }
 
-.botao-1 a, .botao-2 a, .botao-2 h1 a, .botao-3 h1 a, .botao-4 h1 a {
+.botao-1 a{
+text-decoration: none;
+}
+
+.botao-2 a, .botao-2 h1 a, .botao-3 h1 a, .botao-4 h1 a, .botaoprojetos-2 a, .botaoprojetos-3 a, .botaoprojetos-4 a  {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     text-decoration: none;
@@ -36,6 +42,7 @@
     height: 100%;
     padding-top: 20px;
     text-align: center;
+    transition: 350ms all;
 }
 
 .botao-3 {
@@ -45,6 +52,7 @@
     height: 100%;
     padding-top: 20px;
     text-align: center;
+    transition: 350ms all;
 }
 
 .botao-4 {
@@ -54,12 +62,13 @@
     height: 100%;
     padding-top: 20px;
     text-align: center;
+    transition: 350ms all;
 }
 
 .background {
     width: 100%;
     height: 1120px;
-    background-color: #001C55;
+    background-color:#00072D;
     text-align: center;
     padding-top: 20px;
     padding-left: 5%;
@@ -69,4 +78,80 @@
     width: 94%;
     height: 1090px;
     background-color: #A6E1FA;
+    padding-top: 10px;
+}
+
+.botaoprojetos-1 {
+    width: 35%;
+    height: 100%;
+    padding-top: 22px;
+    float: left;
+    text-align: center;
+}
+
+.botaoprojetos-1 h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.botaoprojetos-1 a {
+    text-decoration: none;
+}
+
+.botaoprojetos-2 {
+    border: 1px solid black;
+    margin-left: 85px;
+    float: left;
+    width: 15%;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #A6E1FA;
+}
+
+.botaoprojetos-3 {
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+    width: 15%;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #A6E1FA;
+}
+
+.botaoprojetos-4 {
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+    width: 15%;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #A6E1FA;
+}
+
+.botaoprojetos-1 h1:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+.botao-2:hover, .botao-3:hover, .botao-4:hover {
+    background-color: #A6E1FA;
+    color: white;
+    cursor: pointer
+}
+
+.faixa-fm{
+    background-color: #001C55;
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.botaojogar{
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 20%;
+    margin-left: 40px;
 }
