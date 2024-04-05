@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.titulobacana {
+    height: 12%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.voltar {
+    float: left;
+    height: 92%;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-image: url("https://i.pinimg.com/originals/83/26/9e/83269efa1e0d1370f5f7f9b7b38819e2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.reload {
+    float: left;
+    height: 92%;
+    width: 70px;
+    margin-right: 225px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: gray;
+    margin-left: 20px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3580/3580291.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.titulo {
+    font-size: 2.5vw;
+}
+
+.visorbox {
+    height: 20%;
+    width: 100%;
+}
+
+.visor1 {
+    float: left;
+    border: 5px solid black;
+    height: 100%;
+    width: 74.8%;
+    margin-right: 0.2%;
+    border-radius: 5%;
+    font-size: 45px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: blue;
+}
+
+.visor2 {
+    float: left;
+    border: 5px solid black;
+    height: 100%;
+    width: 25%;
+    border-radius: 5%;
+    font-size: 45px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: blue;
+}
+
+
+
+.caixatexto {
+    float: left;
+    border: 5px solid black;
+    margin-top: 1.5%;
+    border-radius: 5%;
+    height: 250px;
+    width: 39.5%;
+    
+}
+
+
+
+.teclado {
+    margin-left: 40%;
+    border: 5px solid black;
+    margin-top: 1.5%;
+    border-radius: 5%;
+    height: 458px;
+    width: 60%;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: gray;
+}
+
+.botao {
+    float: left;
+    margin: 5px;
+    border: 2px solid black;
+    height: 135px;
+    width: 135px;
+    font-size: 60px;
+    text-align: center;
+    background-color: lightblue;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.botao:hover{
+    background-color: brown;  
+}
+
+.botao:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.voltar:hover{
+    background-color: brown; 
+}
+
+.voltar:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.reload:hover{
+    background-color: brown;  
+}
+
+.reload:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.enter {
+    float: left;
+    margin: 5px;
+    border: 2px solid black;
+    height: 135px;
+    width: 135px;
+    background-color: lightblue;
+    background-image: url("https://static.thenounproject.com/png/85218-200.png");
+    background-size: contain;
+}
+
+.enter:hover{
+    background-color: brown;  
+}
+
+.enter:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.caixatexto #caixatextostyle {
+    font-size: xx-large;
+}
