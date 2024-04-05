@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fm.css">
+</head>
+<body>
+    
+    <div class="titulobacana">
+        <div onclick="botaovoltar()" class="voltar">
+            
+        </div>
+
+        <div onclick="location. reload()" class="reload">
+            
+        </div>
+        
+    <div class="titulo">
+    <h1>Forca Matemática</h1>
+    </div>
+
+  </div>
+
+
+  <div class="visorbox">
+    <div class="visor1">
+        <h1 id="expressaofinal">...</h1>
+      </div>
+
+    <div class="visor2">
+        <h1 id="expressaoResultado">...</h1>
+     </div>
+  </div>
+
+
+
+  <div class="caixatexto">
+    <h1 id="output">Erro: Se estiver lendo isto, clique no botão voltar.</h1>
+  </div>
+  
+
+</div>
+
+
+  <div class="teclado">
+
+    
+    <button onclick="botaorecebamais()" class="botao" >
+        <h1 id="+">+</h1>
+    </button>
+    <button onclick="botaorecebamenos()" class="botao">
+        <h1 id="-">-</h1>
+    </button>
+    <button onclick="botaorecebavezes()" class="botao">
+        <h1 id="*">*</h1>
+    </button>
+    <button onclick="botaorecebadivide()" class="botao">
+        <h1 id="/">/</h1>
+    </button>
+    <button onclick="botaorecebazero()" class="botao">
+        <h1 id="0">0</h1>
+    </button>
+    <button onclick="botaorecebaum()" class="botao">
+        <h1 id="1">1</h1>
+    </button>
+    <button onclick="botaorecebadois()" class="botao">
+        <h1 id="2">2</h1>
+    </button>
+    <button onclick="botaorecebatres()" class="botao">
+        <h1 id="3">3</h1>
+    </button>
+    <button onclick="botaorecebaquatro()" class="botao">
+        <h1 id="4">4</h1>
+    </button>
+    <button onclick="botaorecebacinco()" class="botao">
+        <h1 id="5">5</h1>
+    </button>
+    <button onclick="botaorecebaseis()" class="botao">
+        <h1 id="6">6</h1>
+    </button>
+    <button onclick="botaorecebasete()" class="botao">
+        <h1 id="7">7</h1>
+    </button>
+    <button onclick="botaorecebaoito()" class="botao">
+        <h1 id="8">8</h1>
+    </button>
+    <button onclick="botaorecebanove()" class="botao">
+        <h1 id="9">9</h1>
+    </button>
+    <button onclick="botaoenter()" class="enter">
+        <h1></h1>
+    </button>
+    
+
+  </div>
+
+</body>
+    <script src="fm.js"></script>
+</html>
