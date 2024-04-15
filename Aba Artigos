@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header">
@@ -31,7 +32,22 @@
         <div class="conteudo">
 
             <div class="faixa-art">
-                
+                <form method="get" action="site gamificacao pp prototipo.pptx">
+                <button class="botaobaixo"><i class="fa fa-download" href="projetos.html" value="Dowload"></i>Baixar pdf</button>
+                </form>
+                <br>
+                <br>
+                <div class="artigotitulo"><h1>Gamificação na Educação</h1></div>
+
+                <div class="artigoinf">
+                    <br>
+                    <br>
+                    <br>
+                    <label>Nome: Gabriel U. Bartzen</label>
+                    <br>
+                    <br>
+                    <label>Data: 00/00/2023</label>
+                </div>
             </div>
         </div>
     </div>
