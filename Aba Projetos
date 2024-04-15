@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header">
@@ -14,11 +13,11 @@
             <h1><a href="index.html"><h1>Gamificação na Educação</h1></a></h1>
         </div>
 
-        <div class="botao-2" onclick="location.href='projetos.html';">
+        <div class="botaoselecionado1">
             <h1><a>Projetos</a></h1>
         </div>
 
-        <div class="botaoselecionado2">
+        <div class="botao-3" onclick="location.href='artigos.html';">
             <h1><a>Artigos</a></h1>
         </div>
 
@@ -31,22 +30,21 @@
     <div class="background">
         <div class="conteudo">
 
-            <div class="faixa-art">
-                <form method="get" action="site gamificacao pp prototipo.pptx">
-                <button class="botaobaixo"><i class="fa fa-download" href="projetos.html" value="Dowload"></i>Baixar pdf</button>
-                </form>
-                <br>
-                <br>
-                <div class="artigotitulo"><h1>Gamificação na Educação</h1></div>
+            <div class="faixa-fm">
+                <div class="botaojogar">
+                    <a href="forcamatematica.html"><h1>Jogar</h1></a>
+                </div>
 
-                <div class="artigoinf">
-                    <br>
-                    <br>
-                    <br>
-                    <label>Nome: Gabriel U. Bartzen</label>
-                    <br>
-                    <br>
-                    <label>Data: 00/00/2023</label>
+                <div class="jogotitulo">
+                    <h1>Forca Matemática (PC)</h1>
+                </div>
+
+                <div class="jogotexto">
+                    <label>Com o tema de matemática, o jogo tem como ideia de público, tanto como quem apenas gostaria de ver como seria um jogo da forca diferente, também uma possibilidade de quem poderia desenvolver seus conhecimentos acerca da área, já que muitos apresentam dificuldades e o jogo poderia ser uma forma de auxiliar no aprendizado das expressões matemáticas, captando a atenção e o interesse do jogador pelo método da gamificação, que consiste em aplicar ferramentas de jogos para despertar o interesse e foco do aluno. 
+                        Anteriormente, em um trabalho do técnico, foi desenvolvido um trabalho de um projeto de jogo onde fiz um jogo da forca, e agora se tem a ideia de fazer um novo jogo completamente diferente com a ideia do jogo da forca, porém na área de matemática, mais especificamente com as expressões numéricas, e trabalhando com conceitos de equações, pela descoberta de termos ocultos, para o crescimento das habilidades do jogador na respectiva matéria. O jogo terá uma tela com o botão Jogar, e após clicado, irá para tela do jogo. Terão os espaços onde ficam cada digito que fica inicialmente escondido, e o sinal de igual. 
+                        Ao clicar em um dos botões, todos os números ou operadores correspondentes ao botão existentes na expressão serão revelados, e caso não existam naquela expressão, o número de tentativas será reduzido em um, e o mesmo é um número específico para, assim como no jogo da forca, os primeiros dígitos/operadores sejam descobertos aleatoriamente e os finais utilizando os números/operadores que combinem com os demais espaços revelados, assim como é jogado o jogo da forca.  
+
+                    </label>
                 </div>
             </div>
         </div>
