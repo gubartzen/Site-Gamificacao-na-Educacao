@@ -7,22 +7,23 @@
 .header{
     background-color: #0E6BA8;
     width: 100%;
-    height: 80px;
+    height: 6vw;
 }
 
 .botao-1, .botaoselecionado0 {
     width: 35%;
     height: 100%;
-    padding-top: 22px;
+    padding-top: 1.8vw;
+    padding-bottom: 1.8vw;
     float: left;
     text-align: center;
     transition: 350ms all;
-    margin-right: 125px;
+    margin-right: 14vw;
 }
 
 .botao-1 h1, .botaoselecionado0 h1{
     color: white;
-    font-size: 30px;
+    font-size: 2.5vw;
 }
 
 .botao-1 a, .botaoselecionado0 a{
@@ -30,54 +31,73 @@ text-decoration: none;
 }
 
 .botao-1 h1:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
 }
 
-.botao-2 a, .botao-2 h1 a, .botao-3 h1 a, .botao-4 h1 a, .botaoprojetos-2 a, .botaoprojetos-3 a, .botaoprojetos-4 a  {
+.botao-2 a, .botao-2 a, .botao-3 a, .botao-4 a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 1.8vw;
     text-decoration: none;
     color: black;
+    text-align: center;
+    position: absolute;
+    
 }
+
 
 .botao-2 {
     float: left;
     width: 15%;
-    height: 100%;
-    padding-top: 20px;
+    height: 6vw;
+    padding-top: 2vw;
+    padding-bottom: 1.7vw;
+    padding-right: 7vw;
     text-align: center;
-    transition: 350ms all;
+    transition: 350ms all; 
 }
 
-.botao-3, .botao-4 {
+.botao-3{
     float: left;
     width: 15%;
-    height: 100%;
-    padding-top: 20px;
+    height: 6vw;
+    padding-top: 2vw;
+    padding-bottom: 1.7vw;
     text-align: center;
     transition: 350ms all;
+    padding-right: 6.5vw;
+}
+
+.botao-4 {
+    float: left;
+    width: 15%;
+    height: 6vw;
+    padding-top: 2vw;
+    padding-bottom: 1.7vw;
+    text-align: center;
+    transition: 350ms all;
+    padding-right: 5vw;
 }
 
 .background {
     width: 100%;
-    height: 1120px;
+    height: 100%;
     background-color:black;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.7vw;
     padding-left: 5%;
 }
 
 .conteudo {
     width: 94%;
-    height: 1090px;
+    height: 80vw;
     background-color: #001C55;
-    padding-top: 10px;
+    padding-top: 1vw;
 }
 
 
 .botaoselecionado1 h1, .botaoselecionado2 h1, .botaoselecionado3 h1 {
-    font-size: 30px;
+    font-size: 2.5vw;
 }
 
 .botaoselecionado1 a, .botaoselecionado2 a, .botaoselecionado3 a {
@@ -85,31 +105,31 @@ text-decoration: none;
 }
 
 .botaoselecionado1 {
-    border: 1px solid black;
+    border: 0.17vw solid black;
     float: left;
     width: 15%;
     height: 100%;
-    padding-top: 20px;
+    padding-top: 1.4vw;
     text-align: center;
     background-color: #A6E1FA;
 }
 
 .botaoselecionado2 {
-    border: 1px solid black;
+    border: 0.17vw solid black;
     float: left;
     width: 15%;
     height: 100%;
-    padding-top: 20px;
+    padding-top: 1.4vw;
     text-align: center;
     background-color: #A6E1FA;
 }
 
 .botaoselecionado3 {
-    border: 1px solid black;
+    border: 0.17vw solid black;
     float: left;
     width: 15%;
     height: 100%;
-    padding-top: 20px;
+    padding-top: 1.4vw;
     text-align: center;
     background-color: #A6E1FA;
 }
@@ -118,7 +138,7 @@ text-decoration: none;
 
 .botaoselecionado h1:hover {
     cursor: pointer;
-    transform: scale(1.1); 
+    transform: scale(1.05); 
 }
 
 .botao-2:hover, .botao-3:hover, .botao-4:hover {
@@ -130,18 +150,18 @@ text-decoration: none;
 .faixa-fm{
     background-color: #A6E1FA;
     width: 100%;
-    height: 200px;
-    border-radius: 25px;
+    height: 16vw;
+    border-radius: 3vw;
 }
 
 .botaojogar{
-    border: 2px solid black;
-    border-radius: 25px;
+    border: 0.34vw solid black;
+    border-radius: 3vw;
     width: 20%;
-    margin-left: 40px;
-    margin-top: 60px;
+    margin-left: 3vw;
+    margin-top: 4.6vw;
     float: left;
-    font-size: xx-large;
+    font-size: 2.5vw;
     color: red;
     background-color: gray;
 }
@@ -158,17 +178,108 @@ text-decoration: none;
 
 .jogotitulo {
     float: left;
-    margin-top: 75px;
-    margin-left: 30px;
-    font-size:medium;
+    margin-top: 6.5vw;
+    margin-left: 3vw;
+    font-size: 1vw;
 }
 
 .jogotexto {
     float: left;
-    margin-left: 12px;
-    margin-top: 0px;
-    font-size: 11.5px;
+    margin-left: 2vw;
+    margin-top: 0.8vw;
+    font-size: 0.85vw;
     text-align: center;
-    width: 550px;
-    height: 200px;
+    width: 40vw;
+    height: 30vw;
+}
+
+.faixa-art, .faixa-sobre{
+    background-color: #A6E1FA;
+    width: 100%;
+    height: 1000px;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+
+@media (min-width: 360px) {
+.botaobaixo {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 2vw 4vw;
+  cursor: pointer;
+  font-size: 2vw;
+}
+}
+
+@media (min-width: 1080px) {
+    .botaobaixo {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 1vw 2vw;
+      cursor: pointer;
+      font-size: 2vw;
+    }
+    }
+
+.botaobaixo:hover {
+    background-color: RoyalBlue;
+    cursor: pointer;
+}
+
+@media (min-width: 360px) {
+    .artigotitulo{
+        font-size: 2.4vw;
+    }
+    }
+
+@media (min-width: 1080px) {
+    .artigotitulo{
+        font-size: 1.2vw;
+    }
+    }
+
+@media (min-width: 360px) {
+    .sobretitulo{
+        font-size: 2.5vw;
+    }
+    }
+    
+@media (min-width: 1080px) {
+    .sobretitulo{
+        font-size: 1.5vw;
+    }
+    }
+
+@media (min-width: 360px) {
+    .sobreinf{
+        font-size: 3vw;
+        margin-right: 60vw;
+    }
+    }
+    
+@media (min-width: 1080px) {
+    .sobreinf{
+        font-size: 1.5vw;
+        margin-right: 60vw;
+    }
+    }
+
+.sobreresumo{
+    font-size: 1.5vw;
+    margin-left: 9vw;
+    width: 80%;
+    height: 60vw;
+    text-align: center;
+}
+    
+        
+
+.sobreresumo{
+    font-size: 1.5vw;
+    margin-left: 9vw;
+    width: 80%;
+    height: 60vw;
+    text-align: center;
 }
