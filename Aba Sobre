@@ -30,9 +30,34 @@
     <div class="background">
         <div class="conteudo">
 
-            <div class="faixa-art">
-                
+            <div class="faixa-sobre">
+
+                <br>
+                <div class="sobretitulo"><h1>Sobre</h1></div>
+
+                <div class="sobreinf">
+                    <br>
+                    <br>
+                    <br>
+                    <label>Resumo do projeto</label>
+                </div>
+
+                <div class="sobreresumo">
+                    <br>
+                    <br>
+                    <label>
+                        ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    </label>
+                </div>
+
+                <div class="contato">
+                    
+                </div>
             </div>
+
+
+
+
         </div>
     </div>
 
