@@ -147,12 +147,26 @@ text-decoration: none;
     cursor: pointer
 }
 
-.faixa-fm{
-    background-color: #A6E1FA;
-    width: 100%;
-    height: 16vw;
-    border-radius: 3vw;
-}
+@media (min-width: 360px) {
+    .faixa-fm{
+        background-color: #A6E1FA;
+        width: 100%;
+        height: 28vw;
+        border-radius: 3vw;
+        padding-top: 5vw;
+
+    }
+    }
+    
+@media (min-width: 1080px) {
+    .faixa-fm{
+        background-color: #A6E1FA;
+        width: 100%;
+        height: 16vw;
+        border-radius: 3vw;
+        padding-top: 0vw;
+    }
+    }
 
 .botaojogar{
     border: 0.34vw solid black;
@@ -176,22 +190,46 @@ text-decoration: none;
     cursor: pointer;
 }
 
+@media (min-width: 360px) {
 .jogotitulo {
     float: left;
     margin-top: 6.5vw;
-    margin-left: 3vw;
-    font-size: 1vw;
+    margin-left: 11vw;
+    font-size: 2vw;
+}
 }
 
-.jogotexto {
-    float: left;
-    margin-left: 2vw;
-    margin-top: 0.8vw;
-    font-size: 0.85vw;
-    text-align: center;
-    width: 40vw;
-    height: 30vw;
-}
+@media (min-width: 1080px) {
+    .jogotitulo {
+        float: left;
+        margin-top: 6.5vw;
+        margin-left: 2vw;
+        font-size: 1vw;
+    }
+    }
+
+    @media (min-width: 360px) {
+        .jogotexto {
+            float: left;
+            margin-top: 0.8vw;
+            font-size: 0vw;
+            text-align: center;
+            width: 40vw;
+            height: 30vw;
+        }
+        }
+
+@media (min-width: 1080px) {
+    .jogotexto {
+        float: left;
+        margin-left: 2vw;
+        margin-top: 0.8vw;
+        font-size: 0.85vw;
+        text-align: center;
+        width: 40vw;
+        height: 30vw;
+    }
+    }
 
 .faixa-art, .faixa-sobre{
     background-color: #A6E1FA;
