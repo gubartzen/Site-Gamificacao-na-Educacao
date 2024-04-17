@@ -299,11 +299,23 @@ text-decoration: none;
     
 @media (min-width: 1080px) {
     .sobreinf{
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         margin-right: 60vw;
     }
     }
 
+@media (min-width: 360px) {
+.sobreresumo{
+    font-size: 2.5vw;
+    margin-left: 4.5vw;
+    width: 90%;
+    height: 60vw;
+    text-align: center;
+}
+}
+    
+        
+@media (min-width: 1080px) {
 .sobreresumo{
     font-size: 1.5vw;
     margin-left: 9vw;
@@ -311,13 +323,4 @@ text-decoration: none;
     height: 60vw;
     text-align: center;
 }
-    
-        
-
-.sobreresumo{
-    font-size: 1.5vw;
-    margin-left: 9vw;
-    width: 80%;
-    height: 60vw;
-    text-align: center;
 }
