@@ -180,12 +180,12 @@ text-decoration: none;
     background-color: gray;
 }
 
-.botaojogar a{
+.botaojogar a, .botaojogarfms a{
     color: black;
     text-decoration: none;
 }
 
-.botaojogar:hover {
+.botaojogar:hover, .botaojogarfms:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -224,7 +224,7 @@ text-decoration: none;
         float: left;
         margin-left: 2vw;
         margin-top: 0.8vw;
-        font-size: 0.85vw;
+        font-size: 1.15vw;
         text-align: center;
         width: 40vw;
         height: 30vw;
@@ -323,4 +323,80 @@ text-decoration: none;
     height: 60vw;
     text-align: center;
 }
+}
+
+@media (min-width: 360px) {
+    .faixa-fms{
+        background-color: #A6E1FA;
+        width: 100%;
+        height: 108vw;
+        border-radius: 3vw;
+        padding-top: 2vw;
+    }
+    }
+
+@media (min-width: 1080px) {
+    .faixa-fms{
+        background-color: #A6E1FA;
+        width: 100%;
+        height: 78vw;
+        border-radius: 3vw;
+        padding-top: 2vw;
+    }
+    }
+
+    .voltar {
+        height: 5.5vw;
+        width: 5.5vw;
+        border: 2px solid black;
+        border-radius: 5%;
+        background-image: url("https://i.pinimg.com/originals/83/26/9e/83269efa1e0d1370f5f7f9b7b38819e2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: gray;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin-left: 4vw;
+        float: left;
+    }
+
+    .voltar:hover{
+        background-color: brown;
+        cursor: pointer;
+    }
+
+    @media (min-width: 360px) {
+        .jogotitulofms {
+                    
+        margin-left: -2vw;
+        font-size: 2.5vw;
+        margin-bottom: 2.5vw;
+    }
+    }  
+        
+@media (min-width: 1080px) {
+    .jogotitulofms {
+                
+    margin-right: 7vw;
+    font-size: 1.5vw;
+    margin-bottom: 2.5vw;
+}
+}
+
+.imagemfms{
+    height: 30vw;
+    width: 61%;
+    background-image: url(fmsprint.png);
+    background-size: cover;
+    margin-left: 16.5vw;
+}
+           
+.botaojogarfms{
+    border: 0.34vw solid black;
+    border-radius: 3vw;
+    width: 20%;
+    margin-left: 35vw;
+    margin-top: 4.6vw;
+    font-size: 2.5vw;
+    color: red;
+    background-color: gray;
 }
