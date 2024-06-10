@@ -32,10 +32,8 @@
         <div class="conteudo">
 
             <div class="faixa-art">
-                <form method="get" action="site gamificacao pp prototipo.pptx">
-                <button class="botaobaixo"><i class="fa fa-download" href="projetos.html" value="Dowload"></i>Baixar pdf</button>
-                </form>
-                <br>
+                
+                
                 <br>
                 <div class="artigotitulo"><h1>Gamificação na Educação</h1></div>
 
@@ -46,7 +44,48 @@
                     <label>Nome: Gabriel U. Bartzen</label>
                     <br>
                     <br>
-                    <label>Data: 00/00/2023</label>
+                    <label>Data: 23/08/2023</label>
+                    <br>
+                    <br>
+                </div>
+                <div class="artigoint">
+
+                    <h1>Introdução</h1>
+
+                    <br>
+                    <br>
+
+                    <label>
+                        Este projeto irá apresentar a ideia em geral sobre o que é a gamificação na 
+educação, o porquê da importância de pensar no tema como uma forma de se 
+atualizar, sua definição, contexto, intuito e propósito. A partir disso, será apresentada
+uma pesquisa com base em um projeto científico que faz um teste da forma de 
+educação, o aprendizado gamificado, com estudantes do ensino superior, visando 
+medir seu desempenho, e como poderia ser aperfeiçoado assim como quanto o 
+mesmo poderia auxiliar em todos os níveis da educação, com um maior foco deste 
+trabalho nos anos iniciais, o qual seria teoricamente mais simples, e em três etapas, 
+apresentadas na metodologia do projeto. Com base nestes dados foi feita uma análise 
+dos mesmos e se concluirá assim com os resultados desempenhados, como abordar 
+formas de trazer essas modalidades da área da tecnologia para somar com a 
+educação, o qual é muito necessária por si só, além também sendo para recuperar o 
+aprendizado do aluno, muito pelos problemas enfrentados pelas famílias e 
+educadores da rede pública, e outro ponto também que é lembrado é a questão da 
+pandemia, fator que prejudicou todos os estudantes em todo mundo e principalmente 
+no Brasil, muito devido à falta de condições e tecnologia, o que é mais agravado em 
+regiões mais carentes pelo país, além de outros questionamentos tratados no projeto 
+como percepções de educadores e famílias quanto a geração atual, e como uma 
+adição na forma de educar poderia captar o interesse e atenção do aluno, o que é um 
+grande desafio para os educadores. Com isso, o trabalho irá estudar, como foco 
+principal, meios de adaptar e trazer esta realidade ao aluno brasileiro, com um pouco 
+mais de ênfase nos anos iniciais.
+                    </label>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <form method="get" action="Gamificação na Educação.pdf">
+                        <button class="botaobaixo"><i class="fa fa-download" href="projetos.html" value="Dowload"></i>Baixar pdf</button>
+                        </form>
                 </div>
             </div>
         </div>
