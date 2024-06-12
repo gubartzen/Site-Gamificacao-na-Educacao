@@ -79,6 +79,7 @@ text-decoration: none;
     padding-right: 5vw;
 }
 
+@media (min-width: 360px) {
 .background {
     width: 100%;
     display: block;
@@ -87,39 +88,43 @@ text-decoration: none;
     text-align: center;
     padding-top: 1.7vw;
     padding-left: 5%;
+    min-height: 95vh;
+    max-height: 500vh;
+}
 }
 
-@media (min-width: 360px) {
-    #projetos {
-        width: 100%;
-        height: 71.8vw;
-        background-color:black;
-        text-align: center;
-        padding-top: 1.7vw;
-        padding-left: 5%;
-    }
-    }
-
 @media (min-width: 1080px) {
-#projetos {
+.background {
     width: 100%;
-    height: 41.667vw;
+    display: block;
     background-color:black;
     text-align: center;
     padding-top: 1.7vw;
     padding-left: 5%;
+    min-height: 88vh;
+    max-height: 300vh;
 }
 }
 
+@media (min-width: 360px) {
+    .conteudo {
+        width: 94%;
+        min-height: 92.5vh;
+        max-height: 300vh;
+        background-color: #001C55;
+        padding-top: 1vw;
+    }
+    }
+
+@media (min-width: 1080px) {
 .conteudo {
     width: 94%;
-    min-height: 100%;
-    display: block;
-    overflow: auto;
+    min-height: 82vh;
+    max-height: 300vh;
     background-color: #001C55;
     padding-top: 1vw;
 }
-
+}
 
 .botaoselecionado1 h1, .botaoselecionado2 h1, .botaoselecionado3 h1 {
     font-size: 2.5vw;
@@ -256,10 +261,10 @@ text-decoration: none;
     }
     }
 
-.faixa-art, .faixa-sobre{
+.faixa-sobre{
     background-color: #A6E1FA;
     width: 100%;
-    height: 1000px;
+    height: 130vh;
     border-radius: 25px;
     padding-top: 20px;
 }
@@ -278,7 +283,7 @@ text-decoration: none;
     .faixa-art {
         background-color: #A6E1FA;
         width: 100%;
-        height: 65vw;
+        height: 55vw;
         border-radius: 25px;
         padding-top: 20px;
     }
@@ -398,7 +403,7 @@ text-decoration: none;
     font-size: 2.5vw;
     margin-left: 4.5vw;
     width: 90%;
-    height: 60vw;
+    height: 20vw;
     text-align: center;
 }
 }
@@ -409,7 +414,7 @@ text-decoration: none;
     font-size: 1.5vw;
     margin-left: 9vw;
     width: 80%;
-    height: 60vw;
+    height: 20vw;
     text-align: center;
 }
 }
@@ -488,4 +493,57 @@ text-decoration: none;
     font-size: 2.5vw;
     color: red;
     background-color: gray;
+}
+
+@media (min-width: 360px) {
+.contato {
+    margin-top: 12vh;
+    height: 60vh;
+    width: 70%;
+    background-color: white;
+    margin-left: 15%;
+    padding-top: 5vw;
+    border-radius: 5vw;
+}
+}
+
+@media (min-width: 1080px) {
+    .contato {
+        margin-top: 8vh;
+        height: 70vh;
+        width: 50%;
+        background-color: white;
+        margin-left: 25%;
+        padding: 2vw;
+        padding-top: 3vw;
+        border-radius: 5vw;
+    }
+    }
+
+input[type=text], input[type=email]{
+    width: 50%;
+    height: 5vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5vw;
+    float: left;
+    font-size: 2vh;
+}
+
+textarea {
+    width: 100%;
+    height: 25vh;
+    box-sizing: border-box;
+    border-radius: 5vw;
+    float: left;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+#enviar {
+    margin-top: 2vw;
+    height: 5vh;
+    width: 10vw;
 }
