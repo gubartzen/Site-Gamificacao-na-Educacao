@@ -4,20 +4,10 @@
     padding: 0;
 }
 
-@media (min-width: 360px) {
-    .header{
-        background-color: #0E6BA8;
-        width: 100%;
-        height: 6vw;
-    }
-    }
-
-@media (min-width: 1080px) {
 .header{
     background-color: #0E6BA8;
     width: 100%;
     height: 6vw;
-}
 }
 
 .botao-1, .botaoselecionado0 {
