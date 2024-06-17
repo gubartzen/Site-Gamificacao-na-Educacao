@@ -4,10 +4,20 @@
     padding: 0;
 }
 
+@media (min-width: 360px) {
+    .header{
+        background-color: #0E6BA8;
+        width: 100%;
+        height: 6vw;
+    }
+    }
+
+@media (min-width: 1080px) {
 .header{
     background-color: #0E6BA8;
     width: 100%;
     height: 6vw;
+}
 }
 
 .botao-1, .botaoselecionado0 {
@@ -101,7 +111,7 @@ text-decoration: none;
     text-align: center;
     padding-top: 1.7vw;
     padding-left: 5%;
-    min-height: 88vh;
+    min-height: 90vh;
     max-height: 300vh;
 }
 }
@@ -261,19 +271,11 @@ text-decoration: none;
     }
     }
 
-.faixa-sobre{
-    background-color: #A6E1FA;
-    width: 100%;
-    height: 130vh;
-    border-radius: 25px;
-    padding-top: 20px;
-}
-
 @media (min-width: 360px) {
     .faixa-sobre{
         background-color: #A6E1FA;
         width: 100%;
-        height: 170vh;
+        height: 130vh;
         border-radius: 25px;
         padding-top: 20px;
     }
@@ -287,6 +289,16 @@ text-decoration: none;
         border-radius: 25px;
         padding-top: 20px;
     }
+}
+
+@media (min-width: 1440px) {
+.faixa-sobre{
+    background-color: #A6E1FA;
+    width: 100%;
+    height: 130vh;
+    border-radius: 25px;
+    padding-top: 20px;
+}
 }
 
 @media (min-width: 360px) {
@@ -303,7 +315,7 @@ text-decoration: none;
     .faixa-art {
         background-color: #A6E1FA;
         width: 100%;
-        height: 55vw;
+        height: 130vh;
         border-radius: 25px;
         padding-top: 20px;
     }
@@ -434,7 +446,7 @@ text-decoration: none;
     font-size: 1.5vw;
     margin-left: 9vw;
     width: 80%;
-    height: 20vw;
+    height: 40vh;
     text-align: center;
 }
 }
@@ -566,4 +578,11 @@ textarea {
     margin-top: 2vw;
     height: 5vh;
     width: 10vw;
+}
+
+.multifaixas{
+    border: 5px solid red;
+    min-height: 30vw;
+    width: 95%;
+    margin-left: 2.5%;
 }
