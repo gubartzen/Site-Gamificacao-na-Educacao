@@ -570,9 +570,140 @@ textarea {
     width: 10vw;
 }
 
+@media (min-width: 360px) {
+    .multifaixas{
+        height: 80vh;
+        width: 100%;
+        padding-top: 1%;
+        margin-top: 5vh;
+    }
+    }
+
+@media (min-width: 1080px) {
 .multifaixas{
-    border: 5px solid red;
-    min-height: 30vw;
-    width: 95%;
-    margin-left: 2.5%;
+    height: 80vh;
+    width: 100%;
+    padding-top: 1%;
+    margin-top: 0vh;
+}
+}
+
+.multigamificacao {
+    background-color: white;
+    height: 75vh;
+    width: 32.5%;
+    float: left;
+    padding: 1%;
+    margin-left: 0.25%;
+}
+
+
+.multiprojetos {
+    background-color: white;
+    height: 75vh;
+    width: 32.5%;
+    float: left;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+.multiartigos {
+    background-color: white;
+    height: 75vh;
+    width: 32.5%;
+    float: left;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+@media (min-width: 360px) {
+.multigamificacao h1{
+    font-size: x-large;
+    margin-top: 0.9vh;
+}
+}
+
+@media (min-width: 1080px) {
+.multigamificacao h1{
+   font-size: xx-large;
+   margin-bottom: -1vh;
+}
+}
+
+@media (min-width: 360px) {
+.imgbox1{
+    height: 20vh;
+    width: 20vh;
+    margin-left: 4.8%;
+    margin-top: 8%;
+    background-color: black;
+}
+}
+
+@media (min-width: 1080px) {
+    .imgbox1{
+        height: 60%;
+        width: 76.45%;
+        margin-left: 11%;
+        margin-top: 2%;
+        background-color: black;
+    }
+    }
+
+    @media (min-width: 360px) {
+        .imgbox2{
+            height: 12vh;
+            width: 21vh;
+            margin-left: 2%;
+            margin-top: 18%;
+            background-color: white;
+        }
+        }
+        
+        @media (min-width: 1080px) {
+            .imgbox2{
+                height: 42%;
+                width: 95%;
+                margin-left: 2.5%;
+                margin-top: 8%;
+                background-color: white;
+            }
+            }
+
+            @media (min-width: 360px) {
+                .imgbox3{
+                    height: 20vh;
+                    width: 20vh;
+                    margin-left: 4.8%;
+                    margin-top: 8%;
+                    background-color: white;
+                }
+                }
+                
+                @media (min-width: 1080px) {
+                    .imgbox3{
+                        height: 60%;
+                        width: 76.45%;
+                        margin-left: 12%;
+                        margin-top: 2%;
+                        background-color: white;
+                    }
+                    }
+
+.imgbox1 {
+    background-image: url(https://sousecretaria.com.br/wp-content/uploads/2021/08/o-que-e-gamificacao-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgbox2 {
+    background-image: url(fmsprint.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgbox3 {
+    background-image: url(https://th.bing.com/th/id/OIP.PkPn0ksWH-REsaHhi2jrWgHaHa?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
