@@ -1,14 +1,24 @@
-* {
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+@media (min-width: 360px) {
+.header{
+    background-color: #0E6BA8;
+    width: 100%;
+    height: 14vw;
+}
+} 
+
+@media (min-width: 1080px) {
 .header{
     background-color: #0E6BA8;
     width: 100%;
     height: 6vw;
 }
+}  
 
 .botao-1, .botaoselecionado0 {
     width: 35%;
@@ -21,20 +31,43 @@
     margin-right: 14vw;
 }
 
+@media (min-width: 360px) {
+.botao-1 h1, .botaoselecionado0 h1{
+    color: white;
+    font-size: 4vw;
+  margin-top: 0.5vh;
+}
+}  
+
+@media (min-width: 1080px) {
 .botao-1 h1, .botaoselecionado0 h1{
     color: white;
     font-size: 2.5vw;
 }
+}  
 
 .botao-1 a, .botaoselecionado0 a{
 text-decoration: none;
 }
+ 
 
 .botao-1 h1:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
 
+@media (min-width: 360px) {
+.botao-2 a, .botao-2 a, .botao-3 a, .botao-4 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    text-decoration: none;
+    color: black;
+
+}
+}  
+
+
+@media (min-width: 1080px) {
 .botao-2 a, .botao-2 a, .botao-3 a, .botao-4 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8vw;
@@ -42,10 +75,24 @@ text-decoration: none;
     color: black;
     text-align: center;
     position: absolute;
-    
+
+}
 }
 
+@media (min-width: 360px) {
+.botao-2 {
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding-top: 1vw;
+    padding-bottom: 1.7vw;
+    text-align: center;
+    transition: 350ms all;
+    margin-left: -6.2vh;
+}
+}
 
+@media (min-width: 1080px) {
 .botao-2 {
     float: left;
     width: 15%;
@@ -56,7 +103,22 @@ text-decoration: none;
     text-align: center;
     transition: 350ms all; 
 }
+}
 
+@media (min-width: 360px) {
+.botao-3{
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding-top: 1vw;
+    padding-bottom: 1.7vw;
+    text-align: center;
+    transition: 350ms all;
+    padding-left: 0.4vw;
+}
+}
+
+@media (min-width: 1080px) {
 .botao-3{
     float: left;
     width: 15%;
@@ -67,7 +129,22 @@ text-decoration: none;
     transition: 350ms all;
     padding-right: 6.5vw;
 }
+}
 
+@media (min-width: 360px) {
+.botao-4 {
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding-top: 1vw;
+    padding-bottom: 1.7vw;
+  padding-left: 4.7vw;
+    transition: 350ms all;
+    padding-right: 5vw;
+}
+}  
+
+@media (min-width: 1080px) {
 .botao-4 {
     float: left;
     width: 15%;
@@ -78,6 +155,7 @@ text-decoration: none;
     transition: 350ms all;
     padding-right: 5vw;
 }
+}  
 
 @media (min-width: 360px) {
 .background {
@@ -126,15 +204,54 @@ text-decoration: none;
 }
 }
 
+@media (min-width: 360px) {
+.botaoselecionado1 h1, .botaoselecionado2 h1, .botaoselecionado3 h1 {
+    font-size: 4vw;
+  margin-top: 3vw;
+}
+}
+
+@media (min-width: 1080px) {
 .botaoselecionado1 h1, .botaoselecionado2 h1, .botaoselecionado3 h1 {
     font-size: 2.5vw;
+}
 }
 
 .botaoselecionado1 a, .botaoselecionado2 a, .botaoselecionado3 a {
     text-decoration: none;
 }
 
+@media (min-width: 360px) {
+.botaoselecionado1, .botaoselecionado2, .botaoselecionado3 {
+    border: 0.17vw solid black;
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding-top: 1.4vw;
+    text-align: center;
+    background-color: #A6E1FA;
+}
+}
+
+@media (min-width: 360px) {
 .botaoselecionado1 {
+  margin-left: -6.2vh;
+}
+}  
+
+@media (min-width: 1080px) {
+.botaoselecionado1, .botaoselecionado2, .botaoselecionado3 {
+    border: 0.17vw solid black;
+    float: left;
+    width: 15%;
+    height: 100%;
+    padding-top: 1.4vw;
+    text-align: center;
+    background-color: #A6E1FA;
+}
+}  
+
+.botaoselecionado20 {
     border: 0.17vw solid black;
     float: left;
     width: 15%;
@@ -144,17 +261,7 @@ text-decoration: none;
     background-color: #A6E1FA;
 }
 
-.botaoselecionado2 {
-    border: 0.17vw solid black;
-    float: left;
-    width: 15%;
-    height: 100%;
-    padding-top: 1.4vw;
-    text-align: center;
-    background-color: #A6E1FA;
-}
-
-.botaoselecionado3 {
+.botaoselecionado30 {
     border: 0.17vw solid black;
     float: left;
     width: 15%;
@@ -171,11 +278,13 @@ text-decoration: none;
     transform: scale(1.05); 
 }
 
+@media (min-width: 1080px) {
 .botao-2:hover, .botao-3:hover, .botao-4:hover {
     background-color: #A6E1FA;
     color: white;
     cursor: pointer
 }
+}  
 
 @media (min-width: 360px) {
     .faixa-fm{
@@ -187,7 +296,7 @@ text-decoration: none;
 
     }
     }
-    
+
 @media (min-width: 1080px) {
     .faixa-fm{
         background-color: #A6E1FA;
@@ -357,7 +466,7 @@ text-decoration: none;
 
         }
         }
-    
+
     @media (min-width: 1080px) {
         .artigoint{
             margin-left: 11.5vw;
@@ -371,7 +480,7 @@ text-decoration: none;
             margin-right: 54vw;
         }
         }
-    
+
     @media (min-width: 1080px) {
         .artigoint h1{
             font-size: 2vw;
@@ -382,24 +491,24 @@ text-decoration: none;
         @media (min-width: 360px) {
             .artigoint label{
                 font-size: 2.6vw;
-    
+
             }
             }
-        
+
         @media (min-width: 1080px) {
             .artigoint label{
                 font-size: 1.5vw;
-                
+
             }
             }
-        
+
 
 @media (min-width: 360px) {
     .sobretitulo{
         font-size: 2.5vw;
     }
     }
-    
+
 @media (min-width: 1080px) {
     .sobretitulo{
         font-size: 1.5vw;
@@ -412,7 +521,7 @@ text-decoration: none;
         margin-right: 60vw;
     }
     }
-    
+
 @media (min-width: 1080px) {
     .sobreinf{
         font-size: 1.8vw;
@@ -429,8 +538,8 @@ text-decoration: none;
     text-align: center;
 }
 }
-    
-        
+
+
 @media (min-width: 1080px) {
 .sobreresumo{
     font-size: 1.5vw;
@@ -482,16 +591,16 @@ text-decoration: none;
 
     @media (min-width: 360px) {
         .jogotitulofms {
-                    
+
         margin-left: -2vw;
         font-size: 2.5vw;
         margin-bottom: 2.5vw;
     }
     }  
-        
+
 @media (min-width: 1080px) {
     .jogotitulofms {
-                
+
     margin-right: 7vw;
     font-size: 1.5vw;
     margin-bottom: 2.5vw;
@@ -505,7 +614,7 @@ text-decoration: none;
     background-size: cover;
     margin-left: 16.5vw;
 }
-           
+
 .botaojogarfms{
     border: 0.34vw solid black;
     border-radius: 3vw;
@@ -572,7 +681,7 @@ textarea {
 
 @media (min-width: 360px) {
     .multifaixas{
-        height: 80vh;
+        height: 90vh;
         width: 100%;
         padding-top: 1%;
         margin-top: 5vh;
@@ -588,6 +697,18 @@ textarea {
 }
 }
 
+@media (min-width: 360px) {
+.multigamificacao {
+    background-color: white;
+    height: 85vh;
+    width: 32.5%;
+    float: left;
+    padding: 1%;
+    margin-left: 0.25%;
+}
+}  
+
+@media (min-width: 1080px) {
 .multigamificacao {
     background-color: white;
     height: 75vh;
@@ -596,8 +717,20 @@ textarea {
     padding: 1%;
     margin-left: 0.25%;
 }
+}  
 
+@media (min-width: 360px) {
+.multiprojetos {
+    background-color: white;
+    height: 85vh;
+    width: 32.5%;
+    float: left;
+    padding: 1%;
+    margin-left: 1%;
+}
+}  
 
+@media (min-width: 1080px) {
 .multiprojetos {
     background-color: white;
     height: 75vh;
@@ -606,7 +739,20 @@ textarea {
     padding: 1%;
     margin-left: 1%;
 }
+} 
 
+@media (min-width: 360px) {
+.multiartigos {
+    background-color: white;
+    height: 85vh;
+    width: 32.5%;
+    float: left;
+    padding: 1%;
+    margin-left: 1%;
+}
+}
+
+@media (min-width: 1080px) {
 .multiartigos {
     background-color: white;
     height: 75vh;
@@ -615,10 +761,11 @@ textarea {
     padding: 1%;
     margin-left: 1%;
 }
+}  
 
-@media (min-width: 360px) {
-.multigamificacao h1{
-    font-size: x-large;
+@media (max-width: 450px) {
+.multigamificacao h1, .multiprojetos h1, .multiartigos h1{
+    font-size: medium;
     margin-top: 0.9vh;
 }
 }
@@ -632,8 +779,8 @@ textarea {
 
 @media (min-width: 360px) {
 .imgbox1{
-    height: 20vh;
-    width: 20vh;
+    height: 15vh;
+    width: 15vh;
     margin-left: 4.8%;
     margin-top: 8%;
     background-color: black;
@@ -652,14 +799,14 @@ textarea {
 
     @media (min-width: 360px) {
         .imgbox2{
-            height: 12vh;
-            width: 21vh;
-            margin-left: 2%;
-            margin-top: 18%;
-            background-color: white;
+            height: 9vh;
+            width: 16.5vh;
+            margin-left: 0vh;
+            margin-top: 12.5vh;
+            background-color: black;
         }
         }
-        
+
         @media (min-width: 1080px) {
             .imgbox2{
                 height: 42%;
@@ -672,14 +819,14 @@ textarea {
 
             @media (min-width: 360px) {
                 .imgbox3{
-                    height: 20vh;
-                    width: 20vh;
+                    height: 15vh;
+                    width: 15vh;
                     margin-left: 4.8%;
-                    margin-top: 8%;
+                    margin-top: 9vh;
                     background-color: white;
                 }
                 }
-                
+
                 @media (min-width: 1080px) {
                     .imgbox3{
                         height: 60%;
