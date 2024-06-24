@@ -12,7 +12,7 @@
 }
 } 
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .header{
     background-color: #0E6BA8;
     width: 100%;
@@ -39,7 +39,7 @@
 }
 }  
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .botao-1 h1, .botaoselecionado0 h1{
     color: white;
     font-size: 2.5vw;
@@ -68,7 +68,7 @@ text-decoration: none;
 }  
 
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .botao-2 a, .botao-2 a, .botao-3 a, .botao-4 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8vw;
@@ -93,7 +93,7 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .botao-2 {
     float: left;
     width: 15%;
@@ -120,7 +120,7 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .botao-3{
     float: left;
     width: 15%;
@@ -147,7 +147,7 @@ text-decoration: none;
 }
 }  
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .botao-4 {
     float: left;
     width: 15%;
@@ -175,7 +175,7 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .background {
     width: 100%;
     display: block;
@@ -198,7 +198,7 @@ text-decoration: none;
     }
     }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .conteudo {
     width: 94%;
     min-height: 82vh;
@@ -215,7 +215,7 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .botaoselecionado1 h1, .botaoselecionado2 h1, .botaoselecionado3 h1 {
     font-size: 2.5vw;
 }
@@ -243,7 +243,7 @@ text-decoration: none;
 }
 }  
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .botaoselecionado1, .botaoselecionado2, .botaoselecionado3 {
     border: 0.17vw solid black;
     float: left;
@@ -282,7 +282,7 @@ text-decoration: none;
     transform: scale(1.05); 
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .botao-2:hover, .botao-3:hover, .botao-4:hover {
     background-color: #A6E1FA;
     color: white;
@@ -301,7 +301,7 @@ text-decoration: none;
     }
     }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .faixa-fm{
         background-color: #A6E1FA;
         width: 100%;
@@ -342,7 +342,7 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .jogotitulo {
         float: left;
         margin-top: 6.5vw;
@@ -362,7 +362,7 @@ text-decoration: none;
         }
         }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .jogotexto {
         float: left;
         margin-left: 2vw;
@@ -384,7 +384,7 @@ text-decoration: none;
     }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .faixa-sobre{
         background-color: #A6E1FA;
         width: 100%;
@@ -414,7 +414,7 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .faixa-art {
         background-color: #A6E1FA;
         width: 100%;
@@ -435,7 +435,7 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .botaobaixo {
       background-color: DodgerBlue;
       border: none;
@@ -457,7 +457,7 @@ text-decoration: none;
     }
     }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .artigotitulo{
         font-size: 1.2vw;
     }
@@ -471,7 +471,7 @@ text-decoration: none;
         }
         }
 
-    @media (min-width: 1080px) {
+    @media (min-width: 1080px) or (orientation:landscape) {
         .artigoint{
             margin-left: 11.5vw;
             width: 75%;
@@ -485,7 +485,7 @@ text-decoration: none;
         }
         }
 
-    @media (min-width: 1080px) {
+    @media (min-width: 1080px) or (orientation:landscape) {
         .artigoint h1{
             font-size: 2vw;
             margin-right: 54vw;
@@ -499,7 +499,7 @@ text-decoration: none;
             }
             }
 
-        @media (min-width: 1080px) {
+        @media (min-width: 1080px) or (orientation:landscape) {
             .artigoint label{
                 font-size: 1.5vw;
 
@@ -513,7 +513,7 @@ text-decoration: none;
     }
     }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .sobretitulo{
         font-size: 1.5vw;
     }
@@ -526,7 +526,7 @@ text-decoration: none;
     }
     }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .sobreinf{
         font-size: 1.8vw;
         margin-right: 60vw;
@@ -544,7 +544,7 @@ text-decoration: none;
 }
 
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .sobreresumo{
     font-size: 1.5vw;
     margin-left: 9vw;
@@ -564,7 +564,7 @@ text-decoration: none;
     }
     }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .faixa-fms{
         background-color: #A6E1FA;
         width: 100%;
@@ -602,7 +602,7 @@ text-decoration: none;
     }
     }  
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .jogotitulofms {
 
     margin-right: 7vw;
@@ -642,7 +642,7 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .contato {
         margin-top: 8vh;
         height: 70vh;
@@ -692,7 +692,7 @@ textarea {
     }
     }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .multifaixas{
     height: 80vh;
     width: 100%;
@@ -712,7 +712,7 @@ textarea {
 }
 }  
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .multigamificacao {
     background-color: white;
     height: 75vh;
@@ -734,7 +734,7 @@ textarea {
 }
 }  
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .multiprojetos {
     background-color: white;
     height: 75vh;
@@ -756,7 +756,7 @@ textarea {
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .multiartigos {
     background-color: white;
     height: 75vh;
@@ -774,7 +774,7 @@ textarea {
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
 .multigamificacao h1{
    font-size: xx-large;
    margin-top: -0.2vh;
@@ -791,7 +791,7 @@ textarea {
 }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1080px) or (orientation:landscape) {
     .imgbox1{
         height: 60%;
         width: 76.45%;
@@ -811,7 +811,7 @@ textarea {
         }
         }
 
-        @media (min-width: 1080px) {
+        @media (min-width: 1080px) or (orientation:landscape) {
             .imgbox2{
                 height: 42%;
                 width: 95%;
@@ -831,7 +831,7 @@ textarea {
                 }
                 }
 
-                @media (min-width: 1080px) {
+                @media (min-width: 1080px) or (orientation:landscape) {
                     .imgbox3{
                         height: 60%;
                         width: 76.45%;
