@@ -321,6 +321,7 @@ text-decoration: none;
         height: 16vw;
         border-radius: 3vw;
         padding-top: 0vw;
+        margin-top: 2vh;
     }
     }
 
@@ -336,12 +337,24 @@ text-decoration: none;
     background-color: gray;
 }
 
-.botaojogar a, .botaojogarfms a{
+.botaojogar2{
+    border: 0.34vw solid black;
+    border-radius: 3vw;
+    width: 20%;
+    margin-left: 3vw;
+    margin-top: -9vw;
+    float: left;
+    font-size: 2.5vw;
+    color: red;
+    background-color: gray;
+}
+
+.botaojogar a, .botaojogar2 a, .botaojogarfms a{
     color: black;
     text-decoration: none;
 }
 
-.botaojogar:hover, .botaojogarfms:hover {
+.botaojogar:hover, .botaojogar2:hover, .botaojogarfms:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -364,6 +377,24 @@ text-decoration: none;
     }
     }
 
+    @media (min-width: 360px) {
+        .jogotitulo2 {
+            float: left;
+            margin-top: 0vw;
+            margin-left: 11vw;
+            font-size: 2vw;
+        }
+        }
+        
+        @media (min-width: 1080px) or (orientation:landscape) {
+            .jogotitulo2 {
+                float: left;
+                margin-top: -7vw;
+                margin-left: 22.5vw;
+                font-size: 1vw;
+            }
+            }
+
     @media (min-width: 360px) and (orientation:portrait) {
         .jogotexto {
             float: left;
@@ -380,6 +411,29 @@ text-decoration: none;
         float: left;
         margin-left: 2vw;
         margin-top: 0.8vw;
+        font-size: 1.15vw;
+        text-align: center;
+        width: 40vw;
+        height: 30vw;
+    }
+    }
+
+    @media (min-width: 360px) and (orientation:portrait) {
+        .jogotexto2 {
+            float: left;
+            margin-top: 0.8vw;
+            font-size: 0vw;
+            text-align: center;
+            width: 40vw;
+            height: 30vw;
+        }
+        }
+
+@media (min-width: 1080px) or (orientation:landscape) {
+    .jogotexto2 {
+        float: left;
+        margin-left: 44.5vw;
+        margin-top: -13vw;
         font-size: 1.15vw;
         text-align: center;
         width: 40vw;
