@@ -21,6 +21,10 @@ function botaovoltar() {
 location.href = "projetos.html";
 }
 
+function botaovoltar2() {
+    location.href = "artigos.html";
+    }
+
 function botaorecebamais() {
     botaodigito = '+';
 }
