@@ -5,8 +5,8 @@
 }
 
 .voltar {
-    height: 120px;
-    width: 120px;
+    height: 6vw;
+    width: 6vw;
     border: 2px solid black;
     border-radius: 5%;
     background-image: url("https://i.pinimg.com/originals/83/26/9e/83269efa1e0d1370f5f7f9b7b38819e2.png");
@@ -136,8 +136,8 @@
 
 .reload {
   float: left;
-  height: 120px;
-  width: 120px;
+  height: 6vw;
+  width: 6vw;
   margin-right: 225px;
   margin-top: 20px;
   border: 2px solid black;
@@ -202,7 +202,7 @@
   }
 
 #titulo {
-    font-size: 50px;
+    font-size: 3vw;
     text-align: center;
     margin-top: 50px;
     margin-right: 32.5%;
@@ -237,6 +237,20 @@
     padding-top: 50px;
     margin-top: -570px;
     text-align: center;
+}
+
+@media (max-width: 1272px) {
+    .ladoDireito {
+        width: 32%;
+        margin-left: 2.5%;
+        height: 700px;
+        /*border: 5px solid black;*/
+        float: left;
+        padding-left: 0%;
+        padding-top: 50px;
+        margin-top: -342px;
+        text-align: center;
+    }
 }
 
 #fracao {
@@ -286,6 +300,45 @@
     display: grid;
     place-content: center;
   }
+
+  #selecResposta1, #selecResposta2, #selecResposta3 {
+    font-size: 70px;
+    margin-top: 85px;
+    margin-left: 50px;
+  }
+
+  @media (max-width: 1272px) {
+  input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 20px;
+    font: inherit;
+    color: currentColor;
+    width: 2.15em;
+    height: 2.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+    border: 1px solid black;
+    display: grid;
+    place-content: center;
+  }
+}
+
+@media (max-width: 1272px) {
+    #selecResposta1, #selecResposta2, #selecResposta3 {
+        font-size: 70px;
+        margin-top: 15px;
+        margin-left: 50px;
+      }
+}
   
   input[type="radio"]::before {
     content: "";
@@ -306,10 +359,4 @@
   input[type="radio"]:focus {
     outline: max(2px, 0.15em) solid currentColor;
     outline-offset: max(2px, 0.15em);
-  }
-  
-  #selecResposta1, #selecResposta2, #selecResposta3 {
-    font-size: 70px;
-    margin-top: 85px;
-    margin-left: 50px;
   }
