@@ -239,26 +239,22 @@
     text-align: center;
 }
 
-@media (max-width: 1272px) {
-    .ladoDireito {
-        width: 32%;
-        margin-left: 2.5%;
-        height: 700px;
-        /*border: 5px solid black;*/
-        float: left;
-        padding-left: 0%;
-        padding-top: 50px;
-        margin-top: -342px;
-        text-align: center;
-    }
-}
-
-#fracao {
+#fracao1, #fracao2 {
   font-size: 140px;
   margin-left: 0px;
 }
 
-
+@media (max-width: 1272px) {
+    #fracao1 {
+        font-size: 140px;
+        margin-left: -150px;
+      }
+      #fracao2 {
+        font-size: 140px;
+        margin-left: 30px;
+        margin-top: 228px;
+      }
+}
  
 .form-control {
     font-family: system-ui, sans-serif;
@@ -360,3 +356,5 @@
     outline: max(2px, 0.15em) solid currentColor;
     outline-offset: max(2px, 0.15em);
   }
+  
+ 
