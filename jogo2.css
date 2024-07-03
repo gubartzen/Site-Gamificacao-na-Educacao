@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.voltar {
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-image: url("https://i.pinimg.com/originals/83/26/9e/83269efa1e0d1370f5f7f9b7b38819e2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 2vw;
+    float: left;
+    margin-top: 20px;
+}
+
+.voltar:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.config {
+    margin-top: 150px;
+    border: 5px solid black;
+    height: 1600px;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 20%;
+    padding-left: 0vw;
+}
+
+.config h1, h2, h3 {
+    text-align: center;
+}
+
+
+#checkFracao {
+    height: 60px;
+    width: 60px;
+    margin-left: 150px;
+    margin-top: 60px;
+    float: left;
+    
+}
+
+#checkPotencia {
+    height: 60px;
+    width: 60px;
+    margin-left: -60px;
+    margin-top: 60px;
+    float: left;
+    
+}
+
+#checkCoeficiente {
+    height: 60px;
+    width: 60px;
+    margin-left: 150px;
+    margin-top: 60px;
+    float: left;
+    
+}
+
+#checkNegativo {
+    height: 60px;
+    width: 60px;
+    margin-left: -60px;
+    margin-top: 60px;
+    float: left;
+    
+}
+
+#p {
+    font-size: xx-large;
+    margin-left: 220px;
+    margin-top: 70px;
+}
+
+#range1, #range2, #range3, #range4, #range5{
+    margin-left: 230px;
+    margin-top: 40px;
+    width: 60%;
+}
+
+
+.start {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  margin-left: 470px;
+}
+
+.start:hover {
+  background-color: #374151;
+}
+
+.start:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .start {
+    padding: .75rem 1.5rem;
+  }
+}
+
+.reload {
+  float: left;
+  height: 120px;
+  width: 120px;
+  margin-right: 225px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 5%;
+  background-color: gray;
+  margin-left: 20px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/3580/3580291.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: gray;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.reload:hover{
+  background-color: brown;
+  cursor: pointer;
+}
+
+/* CSS do jogo2frac */
+.start2 {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    float: left;
+    margin-left: 2%;
+    margin-top: 30px;
+  }
+  
+  .start2:hover {
+    background-color: #374151;
+  }
+  
+  .start2:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .start2 {
+      padding: .75rem 1.5rem;
+    }
+  }
+
+#titulo {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 32.5%;
+}
+
+.visor1{
+    height: 1000px;
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 7.5%;
+    /*border: 5px solid black;*/
+}
+
+.ladoEsquerdo {
+    width: 32%;
+    margin-left: 10%;
+    height: 700px;
+    /*border: 5px solid black;*/
+    float: left;
+    padding-left: 0%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.ladoDireito {
+    width: 32%;
+    margin-left: 2.5%;
+    height: 700px;
+    /*border: 5px solid black;*/
+    float: left;
+    padding-left: 0%;
+    padding-top: 50px;
+    margin-top: -570px;
+    text-align: center;
+}
+
+#fracao {
+  font-size: 140px;
+  margin-left: 0px;
+}
+
+
+ 
+.form-control {
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+  }
+  
+  .form-control + .form-control {
+    margin-top: 1em;
+  }
+  
+  .form-control:focus-within {
+    color: var(--form-control-color);
+  }
+  
+  input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 20px;
+    font: inherit;
+    color: currentColor;
+    width: 2.15em;
+    height: 2.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+  
+    display: grid;
+    place-content: center;
+  }
+  
+  input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+  }
+  
+  input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+  
+  input[type="radio"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+  }
+  
+  #selecResposta1, #selecResposta2, #selecResposta3 {
+    font-size: 70px;
+    margin-top: 85px;
+    margin-left: 50px;
+  }
