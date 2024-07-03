@@ -51,27 +51,32 @@
 #checkPotencia {
     height: 60px;
     width: 60px;
-    margin-left: -6%;
-    margin-top: 60px;
     float: left;
+    position: absolute;
+    left: 28%;
+    top: 450px;
+    
     
 }
 
 #checkCoeficiente {
     height: 60px;
     width: 60px;
-    margin-left: 14.2%;
-    margin-top: 60px;
     float: left;
+    position: absolute;
+    left: 28%;
+    top: 552px;
     
 }
 
 #checkNegativo {
     height: 60px;
     width: 60px;
-    margin-left: -5.8%;
-    margin-top: 60px;
-    float: left;
+    position: absolute;
+    left: 28%;
+    top: 655px;
+
+    
 }
 
 #p {
