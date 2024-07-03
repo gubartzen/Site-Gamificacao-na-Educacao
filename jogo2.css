@@ -42,7 +42,7 @@
 #checkFracao {
     height: 60px;
     width: 60px;
-    margin-left: 150px;
+    margin-left: 14.5%;
     margin-top: 60px;
     float: left;
     
@@ -51,7 +51,7 @@
 #checkPotencia {
     height: 60px;
     width: 60px;
-    margin-left: -60px;
+    margin-left: -6%;
     margin-top: 60px;
     float: left;
     
@@ -60,7 +60,7 @@
 #checkCoeficiente {
     height: 60px;
     width: 60px;
-    margin-left: 150px;
+    margin-left: 14.2%;
     margin-top: 60px;
     float: left;
     
@@ -69,7 +69,7 @@
 #checkNegativo {
     height: 60px;
     width: 60px;
-    margin-left: -60px;
+    margin-left: -5.8%;
     margin-top: 60px;
     float: left;
     
@@ -82,7 +82,7 @@
 }
 
 #range1, #range2, #range3, #range4, #range5{
-    margin-left: 230px;
+    margin-left: 18%;
     margin-top: 40px;
     width: 60%;
 }
@@ -111,7 +111,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   width: auto;
-  margin-left: 470px;
+  margin-left: 41.5%;
 }
 
 .start:hover {
