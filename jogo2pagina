@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        
+        <div class="botao-1">
+            <h1><a href="index.html"><h1>Gamificação na Educação</h1></a></h1>
+        </div>
+
+        <div class="botaoselecionado1">
+            <h1><a>Projetos</a></h1>
+        </div>
+
+        <div class="botao-3" onclick="location.href='artigos.html';">
+            <h1><a>Artigos</a></h1>
+        </div>
+
+        <div class="botao-4" onclick="location.href='sobre.html';">
+            <h1><a>Sobre</a></h1>
+        </div>
+
+    </div>
+
+    <div class="background">
+        <div class="conteudo">
+
+            <div class="faixa-fms">
+                
+                <div onclick="botaovoltar()" class="voltar"></div>
+            
+                
+                <div class="jogotitulofms">
+                    <h1>Jogo da Comparação (PC)</h1>
+                </div>
+
+                <div class="imagemfms">
+
+                </div>
+
+                <div class="botaojogarfms">
+                    <a href="jogo2config.html"><h1>Jogar</h1></a>
+                </div>
+
+                <div class="sobreinf">
+                    <br>
+                    
+                    <label>Resumo do jogo</label>
+                </div>
+                <div class="sobreresumo">
+                    <br>
+                    <br>
+                    <label>
+                        Com o tema de matemática, propõe-se um jogo inspirado no clássico “jogo da forca”, mas com uma abordagem inovadora. O objetivo é não apenas entreter, mas também auxiliar no aprendizado de expressões matemáticas. O público-alvo abrange desde curiosos até estudantes que desejam aprimorar seus conhecimentos nessa área.
+
+O jogo se concentra em expressões numéricas e conceitos de equações. Ao iniciar, o jogador se depara com uma tela contendo espaços vazios para os dígitos e um sinal de igual. Clicando em botões, os números ou operadores correspondentes são revelados. Caso não existam na expressão, o número de tentativas diminui. O desafio é descobrir os termos ocultos, combinando os elementos revelados para resolver a equação, de forma semelhante ao jogo da forca. A gamificação estimula o interesse e foco dos jogadores, tornando o aprendizado matemático mais envolvente e divertido.
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+    <script src="fm.js"></script>
+</html>
