@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jogo2.css">
+</head>
+<body>
+    <div onclick="botaovoltar()" class="voltar"></div>
+
+    
+    <br>
+    <div class="config">
+        <h1>Jogo da Comparação</h1>
+        <h2>Configurar novo jogo</h2>
+        <h3>Observações: Ao menos frações ou potências devem estar marcadas para iniciar o jogo.</h3>
+        <h3>Ao selecionar números altos, o jogo pode pesar.</h3>
+
+        <input type="checkbox" id="checkFracao">
+        <p id="p">Incluir frações<p>
+        
+        <input type="checkbox" id="checkPotencia">
+        <p id="p">Incluir potências</p>
+        
+        <input type="checkbox" id="checkCoeficiente">
+        <p id="p">Frações mistas (Caso as frações estejam ativas)</p>
+
+        <input type="checkbox" id="checkNegativo">
+        <p id="p">Expoente negativo (Caso as potências estejam ativas)</p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <h2>Tamanho dos Numeradores</h2>
+        <br>
+        <h2>0-10, 0-1000.</h2>
+        <input type="range" min="1" max="1000" value="500" id="range1" oninput="this.nextElementSibling.value = this.value">
+        <output>500</output>
+        <br>
+        <br>
+        <br>
+
+        <h2>Tamanho dos Denominadores</h2>
+        <br>
+        <h2>0-20, 0-30, 0-60, 0-100, 0-150, 0-250, 0-350. 0-600, 0-1000, 0-1500.</h2>
+        <input type="range" min="1" max="1500" value="750" id="range2" oninput="this.nextElementSibling.value = this.value">
+        <output>750</output>
+        <br>
+        <br>
+        <br>
+
+        <h2>Tamanho dos Multiplicadores (Frações mistas)</h2>
+        <br>
+        <h2>0-5, 0-10 0-20, 0-50, 0-75, 0-100, 0-150, 0-250. 0-500, 0-1000.</h2>
+        <input type="range" min="1" max="1000" value="500" id="range3" oninput="this.nextElementSibling.value = this.value">
+        <output>500</output>
+        <br>
+        <br>
+        <br>
+
+        <h2>Tamanho das Bases</h2>
+        <br>
+        <h2>0-10, 0-15, 0-20, 0-30, 0-50, 0-75, 0-100</h2>
+        <input type="range" min="1" max="100" value="50" id="range4" oninput="this.nextElementSibling.value = this.value">
+        <output>50</output>
+        <br>
+        <br>
+        <br>
+
+        <h2>Tamanho dos Expoentes</h2>
+        <br>
+        <h2>0-10, 0-15, 0-20, 0-30, 0-50, 0-75, 0-100</h2>
+        <input type="range" min="1" max="100" value="50" id="range5" oninput="this.nextElementSibling.value = this.value">
+        <output>50</output>
+        <br>
+        <br>
+        <br>
+        <button class="start" role="button" onclick="sendConfig()">Iniciar jogo</button>
+
+    </div>
+</body>
+<script src="jogo2config.js"></script>
+</html>
