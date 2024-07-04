@@ -282,3 +282,5 @@ document.getElementById("expressaofinal").innerHTML = arrayExpressaoOculta.join(
 document.getElementById("expressaoResultado").innerHTML = "= " + resultadoExpressao;
 
 document.getElementById("output").innerHTML = "Dica: 1. Multiplicação/Divisão, 2. Soma/Subtração. <br>" + "Quando o botão for substituido por X, não restam mais deste digito na expressão. <br> Tentativas restantes --> " + tentativas;
+
+//
