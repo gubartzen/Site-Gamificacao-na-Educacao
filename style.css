@@ -706,6 +706,14 @@ text-decoration: none;
     margin-left: 16.5vw;
 }
 
+.imagemjogo2{
+    height: 30vw;
+    width: 61%;
+    background-image: url(jogo2print.png);
+    background-size: cover;
+    margin-left: 16.5vw;
+}
+
 .botaojogarfms{
     border: 0.34vw solid black;
     border-radius: 3vw;
