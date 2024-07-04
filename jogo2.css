@@ -52,7 +52,7 @@
   width: 60px;
   float: left;
   position: absolute;
-  left: 28%;
+  left: 28.9%;
   top: 450px;
   
   
@@ -63,7 +63,7 @@
   width: 60px;
   float: left;
   position: absolute;
-  left: 28%;
+  left: 28.9%;
   top: 552px;
   
 }
@@ -72,7 +72,7 @@
   height: 60px;
   width: 60px;
   position: absolute;
-  left: 28%;
+  left: 28.9%;
   top: 655px;
 
   
@@ -114,7 +114,7 @@ user-select: none;
 -webkit-user-select: none;
 touch-action: manipulation;
 width: auto;
-margin-left: 41.5%;
+margin-left: 40.5%;
 }
 
 .start:hover {
@@ -416,6 +416,5 @@ input[type="radio"]:focus {
     margin-top: 195px;
   }
 }
- 
   
  
