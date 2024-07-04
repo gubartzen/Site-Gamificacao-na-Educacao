@@ -156,6 +156,15 @@ function jogoPot() {
 
   }
 
+  if (base1 > base2 && expoente1 > expoente2 || base2 > base1 && expoente2 > expoente1 ) {
+    jogoPot();
+  }
+
+  if (base1 > base2 && expoente1 == expoente2 || base2 > base1 && expoente2 == expoente1 ) {
+    jogoPot();
+  }
+
+
   document.getElementById("expoente1").innerHTML = expoente1;
   document.getElementById("expoente2").innerHTML = expoente2;
 
