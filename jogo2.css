@@ -29,8 +29,7 @@
   border: 5px solid black;
   height: 1600px;
   width: 60%;
-  margin-left: 19%;
-  margin-right: 20%;
+  margin-left: 20%;
   padding-left: 0vw;
 }
 
@@ -419,3 +418,4 @@ input[type="radio"]:focus {
 }
  
   
+ 
