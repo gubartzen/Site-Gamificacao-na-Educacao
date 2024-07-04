@@ -1,51 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="jogo2.css">
-</head>
-<body>
-    <div onclick="botaovoltarconfig()" class="voltar"></div>
-    <div onclick="location. reload()" class="reload">
-            
-    </div>
-    <br>
+var booleanFracao;
+var booleanPotencia; 
+var booleanCoeficiente;
+var booleanNegativo;
+var tNumerador;
+var tDenominador;
+var tBase;
+var tExp;
+var tCoeficiente;
+var sorteio;
 
-    <h1 id="titulo">Jogo da Comparação</h1>
-    <div class="visor1">
-        <div class="ladoEsquerdo">
-            <p id="base1">x</p><p><sup id="expoente1">y</sup>
-        </div>
+function botaovoltar() {
+      location.href = "projetos.html";
+      
+    }
+
+    document.registrationForm.ageInputId.oninput = function(){
+        document.registrationForm.ageOutputId.value = document.registrationForm.ageInputId.value;
+    }
+
+    function sendConfig() {
+          booleanFracao = document.querySelector('#checkFracao');
+          booleanPotencia = document.querySelector('#checkPotencia');
+          booleanCoeficiente = document.querySelector('#checkCoeficiente');
+          booleanNegativo = document.querySelector('#checkNegativo');
+
+          tNumerador = document.getElementById("range1").value;
+          tDenominador = document.getElementById("range2").value;
+          tCoeficiente = document.getElementById("range3").value;
+          tBase = document.getElementById("range4").value;
+          tExp = document.getElementById("range5").value;
+      
+        //alert("Valores: "+tNumerador+", "+tDenominador+", "+tCoeficiente+", "+tBase+" e "+tExp+".")
         
-        <form action="">
-            <label class="form-control">
-              <input type="radio" name="radio" id="menorQueId"/>
-              <p id="selecResposta1"><</p>
-            </label>
-          
-            <label class="form-control">
-              <input type="radio" name="radio" id="igualQueId"/>
-              <p id="selecResposta2">=</p>
-            </label>
 
-            <label class="form-control">
-                <input type="radio" name="radio" id="maiorQueId"/>
-                <p id="selecResposta3">></p>
-              </label>
-          </form>
-
-          <button class="start2" role="button" onclick="enviarResposta()">Enviar</button>
-
-        <div class="ladoDireito">
-            <p id="base2">a</p><sup id="expoente2">b</sup>
-        </div>
+         // guardar os valores no localStorage para usar nas outras páginas
+        // usar checked para boolean
+        // if pois o checked sempre aparece como false apos o get, um problema do localstorage que nao passa boleana
         
-    </div>
-</body>
-<script src="jogo2.js"></script>
-</html>
+        if (booleanFracao.checked == true) {
+          localStorage.setItem("booleanFracao", "true");
+        } else {
+          localStorage.setItem("booleanFracao", "false");
+        }
+
+        if (booleanPotencia.checked == true) {
+          localStorage.setItem("booleanPotencia", "true");
+        } else {
+          localStorage.setItem("booleanPotencia", "false");
+        }
+
+        if (booleanCoeficiente.checked == true) {
+          localStorage.setItem("booleanCoeficiente", "true");
+        } else {
+          localStorage.setItem("booleanCoeficiente", "false");
+        }
+
+        if (booleanNegativo.checked == true) {
+          localStorage.setItem("booleanNegativo", "true");
+        } else {
+          localStorage.setItem("booleanNegativo", "false");
+        }
+
+        localStorage.setItem("tNumerador", tNumerador);
+        localStorage.setItem("tDenominador", tDenominador);
+        localStorage.setItem("tCoeficiente", tCoeficiente);
+        localStorage.setItem("tBase", tBase);
+        localStorage.setItem("tExp", tExp);
+        //
+       
+        if(booleanFracao.checked == false && booleanPotencia.checked == false ) {
+        alert("Leia as observações.");
+        } else if (booleanFracao.checked == true && booleanPotencia.checked == true ){
+          // sorteia entre 1 e 0
+          var sorteiolocal = Math.floor(Math.random() * 2);
+          //alert(sorteiolocal);
+
+          //o frac é armazenado indicando que é para carregar somente o script de frac, assim como o pot
+          if (sorteiolocal == 1) {
+            localStorage.setItem("paginaAtual", "frac");
+            location.href = "jogo2frac.html";
+          } else {
+            localStorage.setItem("paginaAtual", "pot");
+            location.href = "jogo2pot.html";
+          }
+        } else if (booleanFracao.checked == true) {
+          localStorage.setItem("paginaAtual", "frac");
+          location.href = "jogo2frac.html";
+        } else { 
+          localStorage.setItem("paginaAtual", "pot");
+          location.href = "jogo2pot.html";
+        }
+      }
+    
+      
+
      
+    
+        
+
+
     
         
