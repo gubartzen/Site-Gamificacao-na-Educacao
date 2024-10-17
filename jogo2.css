@@ -238,9 +238,15 @@ cursor: pointer;
   text-align: center;
 }
 
-#fracao1, #fracao2 {
+#fracao1 {
 font-size: 140px;
-margin-left: 0px;
+margin-left: -180px;
+}
+
+#fracao2 {
+  font-size: 140px;
+  margin-left: 100px;
+  margin-top: 275px;
 }
 
 @media (max-width: 1272px) {
@@ -282,7 +288,7 @@ input[type="radio"] {
   background-color: var(--form-background);
   /* Not removed via appearance */
   margin: 0;
-  margin-top: 100px;
+  margin-top: 0px;
   margin-left: 20px;
   font: inherit;
   color: currentColor;
@@ -298,7 +304,7 @@ input[type="radio"] {
 
 #selecResposta1, #selecResposta2, #selecResposta3 {
   font-size: 70px;
-  margin-top: 85px;
+  margin-top: 0px;
   margin-left: 50px;
 }
 
