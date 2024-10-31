@@ -129,8 +129,6 @@
             margin-top: 4vh;
         }
 
-        
-
     .start2red {
         background-color: red;
     }
@@ -151,5 +149,15 @@
     }
     .start2purple {
         background-color: purple;
+    }
+
+    .imagemoxigenada {
+        border: 5px solid red;
+        margin-left: 34vw;
+        margin-top: 40px;
+        width: 32vw;
+        height: 32vw;
+        background-image: url('https://maestrovirtuale.com/wp-content/uploads/2019/10/estructura-general-de-los-aldeh%C3%ADdos.png');
+        background-size: contain;
     }
     
