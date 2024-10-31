@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://t3.ftcdn.net/jpg/04/01/64/84/360_F_401648425_Gs8hfhNJDDYJzLQDfYe0w3MkXIIpe5Vl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.voltar {
+    height: 6vw;
+    width: 6vw;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-image: url("https://i.pinimg.com/originals/83/26/9e/83269efa1e0d1370f5f7f9b7b38819e2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 2vw;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .voltar:hover{
+    background-color: brown;
+    cursor: pointer;
+  }
+
+.jogo3titulo {
+    padding-left: 33.8vw;
+    font-size: 20px;
+    border: 0px solid red;
+}
+
+.start {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 300px;
+    height: 50px;
+    margin-left: 40.5vw;
+    margin-top: 18vh;
+    background-image: none;
+    }
+    
+    .start:hover {
+    background-color: #374151;
+    }
+    
+    .start:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    }
+    
+    .jogo3titulotreino {
+        padding-left: 43vw;
+        font-size: 20px;
+        border: 0px solid red;
+    }
+
+    .lado1 {
+        border: 0px solid black;
+        width: 45%;
+        height: 380px;
+        float: left;
+    }
+
+    .lado2 {
+        border: 0px solid black; 
+        width: 45%;
+        height: 380px;
+        float: right;
+        padding-right: -500px;
+        
+    }
+
+    .start2red, .start2blue, .start2green, .start2pink, .start2orange, .start2brown, .start2purple{
+        border: 1px solid transparent;
+        border-radius: .75rem;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        flex: 0 0 auto;
+        font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1.125rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+        padding: .75rem 1.2rem;
+        text-align: center;
+        text-decoration: none #6B7280 solid;
+        text-decoration-thickness: auto;
+        transition-duration: .2s;
+        transition-property: background-color,border-color,color,fill,stroke;
+        transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 300px;
+        height: 50px;
+        margin-left: 20vw;
+        margin-top: 10vh;
+        background-image: none;
+        }
+
+        .start2red, .start2blue, .start2green {
+            margin-left: 20vw;
+        }
+
+        .start2orange, .start2brown, .start2purple{
+            margin-left: 5vw;
+        }
+
+        .start2yellow{
+            margin-left: 39.5vw;
+        }
+
+        
+
+    .start2red {
+        background-color: red;
+    }
+    .start2blue {
+        background-color: blue;
+    }
+    .start2green {
+        background-color: green;
+    }
+    .start2pink {
+        background-color: pink;
+        margin-left: 39.8vw;
+        margin-top: 4vh;
+    }
+    .start2orange {
+        background-color: orange;
+    }
+    .start2brown {
+        background-color: brown;
+    }
+    .start2purple {
+        background-color: purple;
+    }
+    

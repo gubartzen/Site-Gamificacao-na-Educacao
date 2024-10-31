@@ -325,6 +325,17 @@ text-decoration: none;
     }
     }
 
+        .faixa-fm2{
+            background-color: #A6E1FA;
+            width: 100%;
+            height: 16vw;
+            border-radius: 3vw;
+            padding-top: 0vw;
+            margin-top: 2vh;
+        }
+
+        
+
 .botaojogar{
     border: 0.34vw solid black;
     border-radius: 3vw;
@@ -712,6 +723,14 @@ text-decoration: none;
     width: 61%;
     background-image: url(jogo2print.png);
     background-size: cover;
+    margin-left: 17vw;
+}
+
+.imagemjogo3{
+    height: 30vw;
+    width: 61%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/141/669/non_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg");
+    background-size: contain;
     margin-left: 17vw;
 }
 
