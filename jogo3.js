@@ -15,4 +15,6 @@ function botaovoltaum() {
 window.history.back();
 }
 
- 
+function aldeidos() {
+    location.href = "treinoaldeido.html";
+}

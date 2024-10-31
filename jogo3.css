@@ -27,12 +27,6 @@
     cursor: pointer;
   }
 
-.jogo3titulo {
-    padding-left: 33.8vw;
-    font-size: 20px;
-    border: 0px solid red;
-}
-
 .start {
     background-color: #111827;
     border: 1px solid transparent;
@@ -57,7 +51,7 @@
     touch-action: manipulation;
     width: 300px;
     height: 50px;
-    margin-left: 40.5vw;
+    margin-left: 39.5vw;
     margin-top: 18vh;
     background-image: none;
     }
@@ -72,8 +66,8 @@
     outline-offset: 2px;
     }
     
-    .jogo3titulotreino {
-        padding-left: 43vw;
+    .jogo3titulo {
+        text-align: center;
         font-size: 20px;
         border: 0px solid red;
     }
@@ -127,11 +121,12 @@
         }
 
         .start2orange, .start2brown, .start2purple{
-            margin-left: 5vw;
+            margin-left: 4.8vw;
         }
 
-        .start2yellow{
-            margin-left: 39.5vw;
+        .start2pink{
+            margin-left: 39.6vw;
+            margin-top: 4vh;
         }
 
         
@@ -147,8 +142,6 @@
     }
     .start2pink {
         background-color: pink;
-        margin-left: 39.8vw;
-        margin-top: 4vh;
     }
     .start2orange {
         background-color: orange;
