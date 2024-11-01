@@ -2,9 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image: url("https://t3.ftcdn.net/jpg/04/01/64/84/360_F_401648425_Gs8hfhNJDDYJzLQDfYe0w3MkXIIpe5Vl.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('https://t3.ftcdn.net/jpg/04/01/64/84/360_F_401648425_Gs8hfhNJDDYJzLQDfYe0w3MkXIIpe5Vl.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 .voltar {
@@ -12,7 +14,7 @@
     width: 6vw;
     border: 2px solid black;
     border-radius: 5%;
-    background-image: url("https://i.pinimg.com/originals/83/26/9e/83269efa1e0d1370f5f7f9b7b38819e2.png");
+    background: url("https://i.pinimg.com/originals/83/26/9e/83269efa1e0d1370f5f7f9b7b38819e2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
