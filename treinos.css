@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://t3.ftcdn.net/jpg/04/01/64/84/360_F_401648425_Gs8hfhNJDDYJzLQDfYe0w3MkXIIpe5Vl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.voltar {
+    height: 6vw;
+    width: 6vw;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-image: url("https://i.pinimg.com/originals/83/26/9e/83269efa1e0d1370f5f7f9b7b38819e2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 2vw;
+    float: left;
+    margin-top: 20px;
+}
+  
+  .voltar:hover{
+    background-color: brown;
+    cursor: pointer;
+  }
+
+  .jogo3titulo {
+    margin-left: -12vw;
+    text-align: center;
+    font-size: 20px;
+    border: 0px solid red;
+}
+
+.imagemoxigenada {
+    border: 0px solid red;
+    margin-left: 34vw;
+    margin-top: 40px;
+    width: 32vw;
+    height: 32vw;
+    background-image: url('https://maestrovirtuale.com/wp-content/uploads/2019/10/estructura-general-de-los-aldeh%C3%ADdos.png');
+    background-size: contain;
+}
+
+h3, p {
+    text-align: center;
+}
+
+h1 {
+    margin-left: 12vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+p {
+    font-size: x-large;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.centralizado {
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 32vw;
+    max-height: 32vw;
+}
+
+a {
+    color: blue;
+    font-size: xx-large;
+    margin-left: 12vw;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkblue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
