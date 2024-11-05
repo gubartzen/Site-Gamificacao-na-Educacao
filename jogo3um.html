@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jogo3.css">
+</head>
+<body>
+    <div onclick="botaovoltaum()" class="voltar"></div>
+
+    <br>
+    <br>
+    <br>
+    
+    
+
+    <div class="jogo3titulojogo">
+    <h1>A qual grupo pertence este composto?</h1>
+    </div>
+
+    <img src="https://maestrovirtuale.com/wp-content/uploads/2019/10/estructura-general-de-los-aldeh%C3%ADdos.png" class="centralizado">
+
+    <div class="aolado">
+        <button class="start2" role="button" onclick="botaoenvio()">Enviar</button>  
+    </div>
+
+
+    <div class="lado11">
+    <input type="checkbox" name="check" id="alcool" onclick="onlyOne(this)"> <p id="gruponome">Álcoois<p>
+    <br>
+    <br>
+    <br>
+    <input type="checkbox" name="check" id="ester" onclick="onlyOne(this)"> <p id="gruponome">Ésteres</p>
+    <br>
+    <br>
+    <br>
+    <input type="checkbox" name="check" id="aldeido" onclick="onlyOne(this)"> <p id="gruponome">Aldeídos</p>
+    </div>
+    
+
+    <div class="lado21">
+    <input type="checkbox" name="check" id="cetona" onclick="onlyOne(this)"><p id="gruponome">Cetonas</p>
+    <br>
+    <br>
+    <br>
+    <input type="checkbox" name="check" id="fenol" onclick="onlyOne(this)"><p id="gruponome">Fenóis</p>
+    <br>
+    <br>
+    <br>
+    <input type="checkbox" name="check" id="eter" onclick="onlyOne(this)"><p id="gruponome">Éteres</p>
+    </div>
+
+    
+    <input type="checkbox" name="check" id="acido" onclick="onlyOne(this)"><p id="gruponome">Ácidos Carboxilícos</p>
+    
+
+</body>
+<script src="jogo3.js"></script>
+</html>
