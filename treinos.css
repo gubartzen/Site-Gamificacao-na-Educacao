@@ -36,16 +36,6 @@
     border: 0px solid red;
 }
 
-.imagemoxigenada {
-    border: 0px solid red;
-    margin-left: 34vw;
-    margin-top: 40px;
-    width: 32vw;
-    height: 32vw;
-    background-image: url('https://maestrovirtuale.com/wp-content/uploads/2019/10/estructura-general-de-los-aldeh%C3%ADdos.png');
-    background-size: contain;
-}
-
 h3, p {
     text-align: center;
 }
