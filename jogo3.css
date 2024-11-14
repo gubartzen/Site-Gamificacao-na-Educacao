@@ -23,8 +23,23 @@
     float: left;
     margin-top: 20px;
   }
+
+  .treinamento {
+    height: 6vw;
+    width: 6vw;
+    border: 2px solid black;
+    border-radius: 5%;
+    background: url("https://th.bing.com/th/id/OIP._2P-xl5gmIrdOsG3H1N07AHaHa?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 2vw;
+    float: left;
+    margin-top: 20px;
+  }
   
-  .voltar:hover{
+  .voltar:hover, .treinamento:hover{
     background-color: brown;
     cursor: pointer;
   }
@@ -157,12 +172,9 @@
         
         display: block;
         height: 25vw;
-        margin-left: auto;
-        margin-right: auto;
-        overflow-x: scroll;
-        min-width: none;
-        max-width: 50vw;
-        transform:translate(-25%,5%);
+        margin-left: 27.5vw;
+        width: 45vw;
+        
         
     }
 

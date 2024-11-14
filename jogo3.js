@@ -1,4 +1,6 @@
 var sorteio;
+var grupo;
+grupo = localStorage.getItem("grupo");
 
 function botaovoltar() {
     location.href = "jogo3pagina.html";
@@ -13,10 +15,6 @@ function botaovoltaum() {
 window.history.back();
 }
 
-function aldeidos() {
-    location.href = "treinoaldeido.html";
-}
-
 function onlyOne(checkbox) {
     var checkboxes = document.getElementsByName(checkbox.name)
     
@@ -25,6 +23,53 @@ function onlyOne(checkbox) {
     })
 
     
+}
+
+function botaostart() {
+    sorteio = Math.floor((Math.random() * 0));
+    if (sorteio == 0) {
+
+        alert("jogo1");
+        sorteio = 0;
+        sorteio = Math.floor((Math.random() * 2));
+        sorteio += 1;
+        sorteio = 2;
+        //1 a 2
+
+        if (sorteio == 12) {
+            alert("selec 1");
+            localStorage.setItem("grupo", 1);
+            location.href = "jogo3um.html";
+            
+            
+        } else if (sorteio == 2) {
+            alert("selec 2");
+            localStorage.setItem("grupo", 2);
+            location.href = "jogo3um.html";
+        } else if (sorteio == 3) {
+            alert("selec 3");
+        } else if (sorteio == 4) {
+            alert("selec 4");
+        } else if (sorteio == 5) {
+            alert("selec 5");
+        } else if (sorteio == 6) {
+            alert("selec 6");
+        } else if (sorteio == 7) {
+            alert("selec 7");
+        }
+    } else {
+        alert("jogo2");
+        location.href = "jogo3um.html";
+    }
+}
+
+grupo = localStorage.getItem("grupo");
+if (grupo == 1) {
+    
+    
+    alcool();
+} else if (grupo == 2) {
+    aldeido();
 }
 
 function botaoenvio() {
@@ -37,6 +82,10 @@ function botaoenvio() {
     }
     if (document.querySelector('#aldeido').checked) {
         alert("aldeido");
+        if (grupo == 2) {
+            alert("Você ganhou.");
+            botaostart();
+        }
     }
     if (document.querySelector('#cetona').checked) {
         alert("cetona");
@@ -52,53 +101,27 @@ function botaoenvio() {
     }
 }
 
-function botaostart() {
-    var grupo;
-    sorteio = Math.floor((Math.random() * 0));
-    if (sorteio == 0) {
-
-        alert("jogo1");
-        sorteio = Math.floor((Math.random() * 2));
-        
-
-        if (sorteio == 0) {
-            alert("selec 0");
-            localStorage.setItem("grupo", 0);
-            grupo = 0;
-            alcool();
-        } else if (sorteio == 1) {
-            alert("selec 1");
-            location.href = "jogo3um.html";
-            localStorage.setItem("grupo", 1);
-        } else if (sorteio == 2) {
-            alert("selec 2");
-        } else if (sorteio == 3) {
-            alert("selec 3");
-        } else if (sorteio == 4) {
-            alert("selec 4");
-        } else if (sorteio == 5) {
-            alert("selec 5");
-        } else if (sorteio == 6) {
-            alert("selec 6");
-        }
-    } else {
-        alert("jogo2");
-        location.href = "jogo3um.html";
-    }
-}
-
 
 function alcool() {
-    alert("0101");
-    location.href = "jogo3um.html";
+    var teste = "https://www.infoescola.com/wp-content/uploads/2007/06/polialcool";
+    teste += ".jpg"
+    document.getElementById("imagemcomposto").src = teste;
+   
+}
 
+function aldeido() {
+    sorteio = Math.floor((Math.random() * 10));
+    sorteio += 1;
+    var teste = "aldeido_";
+    teste = teste + sorteio; 
+    teste += ".jpg";
     
+    document.getElementById("imagemcomposto").src = teste;
+   
 }
 
-var grupo = localStorage.getItem("grupo");
-if (grupo == 0) {
-    document.getElementById("imagemcomposto").src = "https://th.bing.com/th/id/R.fc413a010f043cab4810b323da85734d?rik=3WrGJp%2fVQPMb7A&riu=http%3a%2f%2fwww.infoescola.com%2fwp-content%2fuploads%2f2010%2f07%2faldeido-carbonila.jpg&ehk=0f0LGFx9kPGWzM7omAIOPRTpgvZ3GB1ae%2bBXG98QdGw%3d&risl=&pid=ImgRaw&r=0";
-}
+
+
 
 
 
