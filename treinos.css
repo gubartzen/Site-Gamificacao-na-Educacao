@@ -63,8 +63,10 @@ p {
 
 a {
     color: blue;
-    font-size: xx-large;
-    margin-left: 12vw;
+    font-size: x-large;
+    margin-left: 10vw;
+    margin-right: 10vw;
+   
 }
 
 a:link {
@@ -83,5 +85,10 @@ a:link {
   
   /* selected link */
   a:active {
-    color: blue;
+    color: black;
+  }
+
+  h3 {
+    margin-left: -44vw;
+    font-size: 20px;
   }
