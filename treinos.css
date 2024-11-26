@@ -36,7 +36,7 @@
     border: 0px solid red;
 }
 
-h3, p {
+p {
     text-align: center;
 }
 
@@ -64,7 +64,7 @@ p {
 a {
     color: blue;
     font-size: x-large;
-    margin-left: 10vw;
+    margin-left: 12vw;
     margin-right: 10vw;
    
 }
@@ -89,6 +89,6 @@ a:link {
   }
 
   h3 {
-    margin-left: -44vw;
+    margin-left: 12vw;
     font-size: 20px;
   }
