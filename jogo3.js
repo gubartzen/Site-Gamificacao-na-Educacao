@@ -39,46 +39,82 @@ function botaostart() {
         if (sorteio == 12) {
             alert("selec 1");
             localStorage.setItem("grupo", 1);
-            location.href = "jogo3um.html";
-            
             
         } else if (sorteio == 2) {
             alert("selec 2");
             localStorage.setItem("grupo", 2);
-            location.href = "jogo3um.html";
+            
         } else if (sorteio == 3) {
+            localStorage.setItem("grupo", 3);
             alert("selec 3");
         } else if (sorteio == 4) {
             alert("selec 4");
+            localStorage.setItem("grupo", 4);
         } else if (sorteio == 5) {
             alert("selec 5");
+            localStorage.setItem("grupo", 5);
         } else if (sorteio == 6) {
             alert("selec 6");
+            localStorage.setItem("grupo", 6);
         } else if (sorteio == 7) {
             alert("selec 7");
+            localStorage.setItem("grupo", 7);
         }
     } else {
         alert("jogo2");
         location.href = "jogo3um.html";
     }
+    location.href = "jogo3um.html";
 }
+var gruponome;
 
 grupo = localStorage.getItem("grupo");
 if (grupo == 1) {
     
-    
-    alcool();
+    gruponome = "alcool_";
+
 } else if (grupo == 2) {
-    aldeido();
+
+    gruponome = "ester_";
+
+} else if (grupo == 3) {
+
+    gruponome = "aldeido_";
+
+} else if (grupo == 4) {
+
+    gruponome = "cetona_";
+
+} else if (grupo == 5) {
+
+    gruponome = "fenol_";
+    
+} else if (grupo == 6) {
+
+    gruponome = "eter_";
+    
+} else if (grupo == 7) {
+
+    gruponome = "acido_";
+    
 }
+
+jogoiniciar();
 
 function botaoenvio() {
     if (document.querySelector('#alcool').checked) {
         alert("alcool");
-        
+        if (grupo == 2) {
+            alert("Você ganhou.");
+            botaostart();
+        }
     }
     if (document.querySelector('#ester').checked) {
         alert("ester");
+        if (grupo == 2) {
+            alert("Você ganhou.");
+            botaostart();
+        }
     }
     if (document.querySelector('#aldeido').checked) {
         alert("aldeido");
@@ -89,34 +125,43 @@ function botaoenvio() {
     }
     if (document.querySelector('#cetona').checked) {
         alert("cetona");
+        if (grupo == 2) {
+            alert("Você ganhou.");
+            botaostart();
+        }
     }
     if (document.querySelector('#fenol').checked) {
         alert("fenol");
+        if (grupo == 2) {
+            alert("Você ganhou.");
+            botaostart();
+        }
     }
     if (document.querySelector('#eter').checked) {
         alert("eter");
+        if (grupo == 2) {
+            alert("Você ganhou.");
+            botaostart();
+        }
     }
     if (document.querySelector('#acido').checked) {
         alert("acido");
+        if (grupo == 2) {
+            alert("Você ganhou.");
+            botaostart();
+        }
     }
 }
 
-
-function alcool() {
-    var teste = "https://www.infoescola.com/wp-content/uploads/2007/06/polialcool";
-    teste += ".jpg"
-    document.getElementById("imagemcomposto").src = teste;
-   
-}
-
-function aldeido() {
+function jogoiniciar() {
     sorteio = Math.floor((Math.random() * 10));
     sorteio += 1;
-    var teste = "aldeido_";
-    teste = teste + sorteio; 
-    teste += ".jpg";
     
-    document.getElementById("imagemcomposto").src = teste;
+    
+    gruponome += sorteio; 
+    gruponome += ".jpg";
+    
+    document.getElementById("imagemcomposto").src = gruponome;
    
 }
 
