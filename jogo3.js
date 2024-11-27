@@ -104,7 +104,7 @@ jogoiniciar();
 function botaoenvio() {
     if (document.querySelector('#alcool').checked) {
         alert("alcool");
-        if (grupo == 2) {
+        if (grupo == 1) {
             alert("Você ganhou.");
             botaostart();
         }
@@ -118,35 +118,35 @@ function botaoenvio() {
     }
     if (document.querySelector('#aldeido').checked) {
         alert("aldeido");
-        if (grupo == 2) {
+        if (grupo == 3) {
             alert("Você ganhou.");
             botaostart();
         }
     }
     if (document.querySelector('#cetona').checked) {
         alert("cetona");
-        if (grupo == 2) {
+        if (grupo == 4) {
             alert("Você ganhou.");
             botaostart();
         }
     }
     if (document.querySelector('#fenol').checked) {
         alert("fenol");
-        if (grupo == 2) {
+        if (grupo == 5) {
             alert("Você ganhou.");
             botaostart();
         }
     }
     if (document.querySelector('#eter').checked) {
         alert("eter");
-        if (grupo == 2) {
+        if (grupo == 6) {
             alert("Você ganhou.");
             botaostart();
         }
     }
     if (document.querySelector('#acido').checked) {
         alert("acido");
-        if (grupo == 2) {
+        if (grupo == 7) {
             alert("Você ganhou.");
             botaostart();
         }
