@@ -20,7 +20,12 @@
     <h1>Jogo das Funções Oxigenadas</h1>
     </div>
 
-    <button class="start" role="button" onclick="botaotreino()">Treinamento</button>
+    <button class="start" id="botaotreinocomeco" role="button">Treinamento</button>
+    <script type="text/javascript">
+        document.getElementById("botaotreinocomeco").onclick = function () {
+        location.href = "jogo3treinamento.html";
+        };
+        </script>
     <button class="start" role="button" onclick="botaostart()">Iniciar jogo</button>
     
 
