@@ -704,7 +704,7 @@ text-decoration: none;
 @media (min-width: 1080px) or (orientation:landscape) {
     .jogotitulofms {
 
-    margin-right: 7vw;
+    margin-right: 8.5vw;
     font-size: 1.5vw;
     margin-bottom: 2.5vw;
 }
@@ -729,9 +729,10 @@ text-decoration: none;
 .imagemjogo3{
     height: 30vw;
     width: 61%;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/004/141/669/non_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg");
+    background-image: url("jogo3.png");
     background-size: contain;
-    margin-left: 17vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .botaojogarfms{
